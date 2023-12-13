@@ -1,9 +1,11 @@
-let adjective = prompt('Enter an adjective:')
-let noun = prompt('Enter an noun:')
-let verb = prompt('Enter an verb:')
-let adverb = prompt('Enter an adverb:')
+let adjective1 = prompt('Enter an adjective:')
+let noun1 = prompt('Enter an noun:')
+let verb1 = prompt('Enter an verb:')
+let adverb1 = prompt('Enter an adverb:')
+let athlete1 = prompt('Enter an NFL player:')
+let athlete2 = prompt('Enter an NHL player:')
 
-let story = `Once upon a time, in a ${adjective} ${noun}, a ${verb} ${noun} ${adverb} ${verb}.`
+let story = `.`
 
 let madLibOutputDiv = document.querySelector('#madLibOutput')
 
