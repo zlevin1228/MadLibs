@@ -5,7 +5,7 @@ let adverb1 = prompt('Enter an adverb:')
 let athlete1 = prompt('Enter an NFL player:')
 let athlete2 = prompt('Enter an NHL player:')
 
-let story = `.`
+let story = `d`
 
 let madLibOutputDiv = document.querySelector('#madLibOutput')
 
