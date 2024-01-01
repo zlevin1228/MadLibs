@@ -1,7 +1,6 @@
 /* Kilgore's CSS */
 
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: gray;
@@ -12,11 +11,22 @@ body {
     margin: 0 auto;
 }
 
-header, footer {
-    background-color: #3498db;
+header,
+footer {
+    background-color: #D50A0A;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    font-family: 'Delius';
+}
+
+h1.display-5 {
+    font-family: 'Rubik Doodle Shadow';
+}
+
+@media only screen and (min-width: 768px) {
+    .brnodisplay {
+        display: none;
 }
 
 footer {
@@ -28,7 +38,7 @@ footer {
 #madLibOutput {
     padding: 20px;
     text-align: center;
-}
+ }
 
 /* My Own CSS */
 
@@ -37,22 +47,25 @@ footer {
     width: auto;
 }
 
-.ParallaxVideo video{ 
+.ParallaxVideo video {
     min-width: 100%;
     min-height: 100%;
     position: fixed;
-    top:0;
+    top: 0;
     z-index: -999;
-  }
-  .ParallaxVideo h1 {
-  color: #fff;
-  text-transform: uppercase;
-  }
-  
-  .video-parallax {
-    height: 100%;
-  }
+ }
 
-  .output {
-    background-color: white;
-  }
+.ParallaxVideo h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.video-parallax {
+    height: 100%;
+}
+
+.output {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
+    color:green;
+    font-family: 'Delius';
+}
